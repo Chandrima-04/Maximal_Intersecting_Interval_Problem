@@ -35,7 +35,7 @@ class Maximal_intersection:
 "Driver code"
 left_list = []
 right_list = []
-interval = int(input ("Enter interval value "))
+interval = int(input ("Enter number of intervals"))
 while interval>0:
     a,b = input ("Enter interval value ").split(' ')
     a,b = int(a), int(b)
